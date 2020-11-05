@@ -37,13 +37,18 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
           <ul class="navbar-nav mr-auto">
-            <div class="btn-group">
-              <button class="btn btn-secondary btn-lg dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <!-- Drop Down Menus -->
+            <div class="dropdown">
+              <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Brows
               </button>
-              <div class="dropdown-menu">
-                Dustin<br>
-                Madison<br>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" href="#">Dustin</a>
+                <a class="dropdown-item" href="#">Madison</a>
+                <a class="dropdown-item" href="#">Gallery</a>
+              </div>
+            </div>
+            <!-- END Dropdown Menus -->
               </div>
             </div>
             <li class="nav-item">
