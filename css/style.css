@@ -112,7 +112,7 @@ nav ul.dropdown-list {
     display: block;
     background: var(--smoke);
     padding: 6px 16px;
-    position: relative;
+    position: absolute;
     width: max-content;
     z-index: 9999;
     left: 50%;
