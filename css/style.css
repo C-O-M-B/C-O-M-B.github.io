@@ -27,11 +27,11 @@ html, body {
     height: 100%;
 }
 
-footer {
+.footer {
     height: 60px;  /* footer height */
     padding-top: 20px;
     margin-top: 20px; /* space between content and footer */
-    position: bottom;
+    position: relative;
     width: 100%;
 }
 
