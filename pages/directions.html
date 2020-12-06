@@ -61,6 +61,46 @@
             <div>
                 
                <center><h1>Directions</h1></center>
+
+               <head>
+                <title>Street View Containers</title>
+                <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+                <script
+                  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD35BPfnmVukCIykfWuEY5k5Vu0AfIV3Vg&callback=initialize&libraries=&v=weekly"
+                  defer
+                ></script>
+                <style type="text/css">
+                  html,
+                  body {
+                    height: 100%;
+                    margin: 0;
+                    padding: 0;
+                  }
+            
+                  #street-view {
+                    height: 100%;
+                  }
+                </style>
+                <script>
+                  let panorama;
+            
+                  function initialize() {
+                    panorama = new google.maps.StreetViewPanorama(
+                      document.getElementById("street-view"),
+                      {
+                        position: { lat: 41.232245, lng: -96.082198 },
+                        pov: { heading: 165, pitch: 0 },
+                        zoom: 1,
+                      }
+                    );
+                  }
+                </script>
+              </head>
+              <body>
+                <div id="street-view"></div>
+              </body>
+
+
                 <center><h3>From I-80</h3></div></center>
                 <right>Take I-80 West to I-680 North.<br>
                      Continue on I-680 North and take the West Center Road exit heading East.<br>
