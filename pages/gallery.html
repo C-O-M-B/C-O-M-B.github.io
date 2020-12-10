@@ -2,6 +2,12 @@
 <html lang="en">
 
 <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Droid+Sans:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://rawgit.com/LeshikJanz/libraries/master/Bootstrap/baguetteBox.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -61,128 +67,62 @@
         <section class="header container">
             <div>
                 <h1>Gallery</h1>
+                    <body>
+                    
+                    <div class="container gallery-container">
+                    
+                        <h1>Bootstrap 3 Gallery</h1>
+                    
+                        <p class="page-description text-center">Fluid Layout With Overlay Effect</p>
+                        
+                        <div class="tz-gallery">
+                    
+                            <div class="row">
+                    
+                                <div class="col-sm-12 col-md-4">
+                                    <a class="lightbox" href="https://raw.githubusercontent.com/LeshikJanz/libraries/master/Related%20images/Bootstrap%20example/bridge.jpg">
+                                        <img src="https://raw.githubusercontent.com/LeshikJanz/libraries/master/Related%20images/Bootstrap%20example/bridge.jpg" alt="Bridge">
+                                    </a>
+                                </div>
+                                <div class="col-sm-6 col-md-4">
+                                    <a class="lightbox" href="https://raw.githubusercontent.com/LeshikJanz/libraries/master/Related%20images/Bootstrap%20example/park.jpg">
+                                        <img src="https://raw.githubusercontent.com/LeshikJanz/libraries/master/Related%20images/Bootstrap%20example/park.jpg" alt="Park">
+                                    </a>
+                                </div>
+                                <div class="col-sm-6 col-md-4">
+                                    <a class="lightbox" href="https://raw.githubusercontent.com/LeshikJanz/libraries/master/Related%20images/Bootstrap%20example/tunnel.jpg">
+                                        <img src="https://raw.githubusercontent.com/LeshikJanz/libraries/master/Related%20images/Bootstrap%20example/tunnel.jpg" alt="Tunnel">
+                                    </a>
+                                </div>
+                                <div class="col-sm-12 col-md-8">
+                                    <a class="lightbox" href="https://raw.githubusercontent.com/LeshikJanz/libraries/master/Related%20images/Bootstrap%20example/traffic.jpg">
+                                        <img src="https://raw.githubusercontent.com/LeshikJanz/libraries/master/Related%20images/Bootstrap%20example/traffic.jpg" alt="Traffic">
+                                    </a>
+                                </div>
+                                <div class="col-sm-6 col-md-4">
+                                    <a class="lightbox" href="https://raw.githubusercontent.com/LeshikJanz/libraries/master/Related%20images/Bootstrap%20example/rails.jpg">
+                                        <img src="https://raw.githubusercontent.com/LeshikJanz/libraries/master/Related%20images/Bootstrap%20example/rails.jpg" alt="Coast">
+                                    </a>
+                                </div> 
+                                <div class="col-sm-6 col-md-4">
+                                    <a class="lightbox" href="https://raw.githubusercontent.com/LeshikJanz/libraries/master/Related%20images/Bootstrap%20example/coast.jpg">
+                                        <img src="https://raw.githubusercontent.com/LeshikJanz/libraries/master/Related%20images/Bootstrap%20example/coast.jpg" alt="Rails">
+                                    </a>
+                                </div>
+                    
+                            </div>
+                    
+                        </div>
+                    
+                    </div>
+                    
+                    <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
+                    <script>
+                        baguetteBox.run('.tz-gallery');
+                    </script>
+                    </body>
+                    </html>
 
-<!--Carousel Wrapper-->
-<div id="multi-item-example" class="carousel slide carousel-multi-item carousel-multi-item-2" data-ride="carousel">
-
-    <!--Controls-->
-    <div class="controls-top">
-      <a class="black-text" href="#multi-item-example" data-slide="prev"><i class="fas fa-angle-left fa-3x pr-3"></i></a>
-      <a class="black-text" href="#multi-item-example" data-slide="next"><i class="fas fa-angle-right fa-3x pl-3"></i></a>
-    </div>
-    <!--/.Controls-->
-  
-    <!--Slides-->
-    <div class="carousel-inner" role="listbox">
-  
-      <!--First slide-->
-      <div class="carousel-item active">
-  
-        <div class="col-md-3 mb-3">
-          <div class="card">
-            <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(38).jpg"
-              alt="Card image cap">
-          </div>
-        </div>
-  
-        <div class="col-md-3 mb-3">
-          <div class="card">
-            <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(19).jpg"
-              alt="Card image cap">
-          </div>
-        </div>
-  
-        <div class="col-md-3 mb-3">
-          <div class="card">
-            <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(42).jpg"
-              alt="Card image cap">
-          </div>
-        </div>
-  
-        <div class="col-md-3 mb-3">
-          <div class="card">
-            <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(8).jpg"
-              alt="Card image cap">
-          </div>
-        </div>
-  
-      </div>
-      <!--/.First slide-->
-  
-      <!--Second slide-->
-      <div class="carousel-item">
-  
-        <div class="col-md-3 mb-3">
-          <div class="card">
-            <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(53).jpg"
-              alt="Card image cap">
-          </div>
-        </div>
-  
-        <div class="col-md-3 mb-3">
-          <div class="card">
-            <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(25).jpg"
-              alt="Card image cap">
-          </div>
-        </div>
-  
-        <div class="col-md-3 mb-3">
-          <div class="card">
-            <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(47).jpg"
-              alt="Card image cap">
-          </div>
-        </div>
-  
-        <div class="col-md-3 mb-3">
-          <div class="card">
-            <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(26).jpg"
-              alt="Card image cap">
-          </div>
-        </div>
-  
-      </div>
-      <!--/.Second slide-->
-  
-      <!--Third slide-->
-      <div class="carousel-item">
-  
-        <div class="col-md-3 mb-3">
-          <div class="card">
-            <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(64).jpg"
-              alt="Card image cap">
-          </div>
-        </div>
-  
-        <div class="col-md-3 mb-3">
-          <div class="card">
-            <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(51).jpg"
-              alt="Card image cap">
-          </div>
-        </div>
-  
-        <div class="col-md-3 mb-3">
-          <div class="card">
-            <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(59).jpg"
-              alt="Card image cap">
-          </div>
-        </div>
-  
-        <div class="col-md-3 mb-3">
-          <div class="card">
-            <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(63).jpg"
-              alt="Card image cap">
-          </div>
-        </div>
-  
-      </div>
-      <!--/.Third slide-->
-  
-    </div>
-    <!--/.Slides-->
-  
-  </div>
-  <!--/.Carousel Wrapper-->
-  
                 <h4>Gallery Coming Soon!<br> Call to book an appointment at 402.933.1979.
                     <br>10812 Prairie Hills Dr.
                 </h4>
