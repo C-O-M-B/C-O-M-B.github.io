@@ -20,7 +20,7 @@ body {
     padding: 0px;
     font-family: 'Lato', sans-serif;
     background: linear-gradient(45deg, #434343, #000000);
-    background-size: 200vh;
+    background-size: cover;
     color: var(--pure);
 }
 
@@ -38,6 +38,7 @@ footer {
 
 .container {
     min-height: 100%;
+    width: 1152px;
     max-width: 90%;
     margin: 0 auto;
 }
