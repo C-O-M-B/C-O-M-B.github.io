@@ -37,7 +37,7 @@ footer {
 }
 
 .container {
-    min-height: auto;
+    min-height: 100vh;
     max-width: 90%;
     margin: 0 auto;
 }
