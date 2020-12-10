@@ -312,7 +312,7 @@ nav ul.dropdown-list {
         margin-top: -13px;
         margin-left: -13px;
         opacity: 0;
-        color: #fff;
+        color: rgb(54, 54, 54);
         font-size: 26px;
         font-family: 'Glyphicons Halflings';
         content: '\e003';
