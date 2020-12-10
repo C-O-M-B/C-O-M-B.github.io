@@ -20,7 +20,7 @@ body {
     padding: 0px;
     font-family: 'Lato', sans-serif;
     background: linear-gradient(45deg, #434343, #000000);
-    background-size: cover;
+    background-size: auto;
     color: var(--pure);
 }
 
