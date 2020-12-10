@@ -37,6 +37,7 @@ footer {
 }
 
 .container {
+    position: relative;
     min-height: 100%;
     width: 1152px;
     max-width: 90%;
