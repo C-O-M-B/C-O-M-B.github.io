@@ -252,23 +252,7 @@ nav ul.dropdown-list {
     width:100%;
     position:absolute;
 }
-
-@media (min-width: 768px) {
-    .carousel-multi-item-2 .col-md-3 {
-    float: left;
-    width: 25%;
-    max-width: 100%; } }
-    
-    .carousel-multi-item-2 .card img {
-    border-radius: 2px; }
-
-    body {
-        background-color: #434c50;
-        min-height: 100vh;
-        font: normal 16px sans-serif;
-        padding: 40px 0;
-    }
-    
+/* Gallery Container / Config */
     .container.gallery-container {
         background-color: rbg(54,54,54);
         color: #35373a;
