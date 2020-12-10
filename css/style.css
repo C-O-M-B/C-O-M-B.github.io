@@ -270,7 +270,7 @@ nav ul.dropdown-list {
     }
     
     .container.gallery-container {
-        background-color: #fff;
+        background-color: rbg(54,54,54);
         color: #35373a;
         min-height: 100vh;
         padding: 30px 50px;
