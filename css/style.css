@@ -20,7 +20,6 @@ body {
     padding: 0px;
     font-family: 'Lato', sans-serif;
     background: linear-gradient(45deg, #434343, #000000);
-    background-size: cover;
     color: var(--pure);
 }
 
@@ -32,12 +31,11 @@ footer {
     height: 60px;  /* footer height */
     padding-top: 20px;
     margin-top: 60px; /* space between content and footer */
-    position: fixed, bottom;
+    position: relative;
     width: 100%;
 }
 
 .container {
-    position: fixed;
     min-height: 100%;
     width: 1152px;
     max-width: 90%;
@@ -48,7 +46,6 @@ footer {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    position: top;
 }
 
 .brand {
