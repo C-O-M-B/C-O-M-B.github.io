@@ -32,7 +32,7 @@ footer {
     height: 60px;  /* footer height */
     padding-top: 20px;
     margin-top: 60px; /* space between content and footer */
-    position: relative;
+    position: fixed, bottom;
     width: 100%;
 }
 
