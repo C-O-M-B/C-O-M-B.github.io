@@ -10,7 +10,5 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    left:50%;
-    top:20%;
     transform:translate(-50%,-20%);
   }
