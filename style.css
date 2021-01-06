@@ -10,4 +10,5 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    transform: translate3d(700px, 0, -800px) rotateY(30deg);
   }
