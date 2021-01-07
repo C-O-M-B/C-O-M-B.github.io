@@ -94,7 +94,7 @@
     z-index: 5; /* slide over group 2 */
   }
   #group1 .parallax__layer--base {
-    background: rgb(112, 98, 189);
+    background: rgb(98, 140, 189);
   }
 
   #group2 {
@@ -108,7 +108,7 @@
     z-index: 4; /* slide over group 2 and 4 */
   }
   #group3 .parallax__layer--base {
-    background: rgb(101, 147, 216);
+    background: rgb(132, 101, 216);
   }
 
   #group4 {
