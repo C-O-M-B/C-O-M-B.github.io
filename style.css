@@ -136,7 +136,7 @@
     z-index: 3; /* slide over group 7 */
   }
   #group7 .parallax__layer--base {
-    background: rgb(112, 111, 92);
+    background: url(./Capture.PNG)
   }
 
 
