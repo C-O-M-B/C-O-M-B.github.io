@@ -101,7 +101,7 @@
     z-index: 3; /* slide under groups 1 and 3 */
   }
   #group2 .parallax__layer--back {
-    background: url(./anna.jpg)
+    background: url(anna.jpg)
   }
 
   #group3 {
