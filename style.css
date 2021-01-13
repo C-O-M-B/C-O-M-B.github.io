@@ -103,7 +103,7 @@
   #group2 .parallax__layer--back {
     background: url(anna.jpg);
     background-repeat: no-repeat;
-    background-size: auto;
+    background-size: 100%;
   }
 
   #group3 {
