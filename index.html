@@ -135,44 +135,55 @@
           Handcrafted brows | Bountiful lashes
           
 <p>
-  <a class="btn btn-primary" data-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Brows</a>
-  <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">Lashes</button>
-  <button class="btn btn-primary" type="button" data-toggle="collapse" data-target=".multi-collapse" aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2">Brows & Lashes</button>
-</p>
-<div class="row">
-  <div class="col">
-    <div class="collapse multi-collapse" id="multiCollapseExample1">
-      <div class="card card-body">
-        Handcrafted Brow Wax<br>
-        Duration: 15 minutes &middot; $35<br>
-        Dustin's method has gained him a cult following in Omaha. Eyebrows are a real123 specialty here and are handcrafted to your bone structure. You will be delighted by our obsession.<br>
-        <br>
-        Brow Tint<br>
-        Duration: 30 minutes &middot; $25<br>
-        A brow tint is a fab way to add depth, lighten brows, or cover pesky grey hairs. This service is generally fulfilled following a brow wax appointment.  
-        <br>
-        <br>
-        Brow Lamination &middot; $60 w/ $30 deposit<br>
-        Duration: 45 minutes<br>
-        Perm your brows to wake up with that perfectly sculpted appearance for over 6 weeks, no matter what. 
+  <div id="accordion">
+    <div class="card">
+      <div class="card-header" id="headingOne">
+        <h5 class="mb-0">
+          <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            Brows
+          </button>
+        </h5>
       </div>
-    </div>
-  </div>
-  <div class="col">
-    <div class="collapse multi-collapse" id="multiCollapseExample2">
-      <div class="card card-body">
-        Lash Tint &middot; $25<br>
-        Duration: 30 minutes<br>
-        Tinting your eyelashes will give you dense and dark appearing lashes. This is a great method to having perfect, fuss-free lashes first thing in the morning or during a dip in the pool.<br>
-        <br>
-        Lash Lift/Perm &middot; $60<br>
-        Duration: 30 minutes
-        Give your lashes a perm to keep them appearing bountiful through any situation for at least 4 weeks. <br>
+  
+      <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+        <div class="card-body">
+          Duration: 15 minutes &middot; $35<br>
+          Dustin's method has gained him a cult following in Omaha. Eyebrows are a real123 specialty here and are handcrafted to your bone structure. You will be delighted by our obsession.<br>
+          <br>
+          Brow Tint<br>
+          Duration: 30 minutes &middot; $25<br>
+          A brow tint is a fab way to add depth, lighten brows, or cover pesky grey hairs. This service is generally fulfilled following a brow wax appointment.  
+          <br>
+          <br>
+          Brow Lamination &middot; $60 w/ $30 deposit<br>
+          Duration: 45 minutes<br>
+          Perm your brows to wake up with that perfectly sculpted appearance for over 6 weeks, no matter what. 
 
         </div>
+      </div>
     </div>
-  </div>
-</div>
+    <div class="card">
+      <div class="card-header" id="headingTwo">
+        <h5 class="mb-0">
+          <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            Lashes
+          </button>
+        </h5>
+      </div>
+      <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+        <div class="card-body">
+        
+          Lash Tint &middot; $25<br>
+          Duration: 30 minutes<br>
+          Tinting your eyelashes will give you dense and dark appearing lashes. This is a great method to having perfect, fuss-free lashes first thing in the morning or during a dip in the pool.<br>
+          <br>
+          Lash Lift/Perm &middot; $60<br>
+          Duration: 30 minutes
+          Give your lashes a perm to keep them appearing bountiful through any situation for at least 4 weeks. <br>  
+          
+        </div>
+      </div>
+    </div>
            
            
            <a class="js-scroll-trigger" href="#group4">Hair</a> | <a class="js-scroll-trigger" href="#group6">Skincare</a>
@@ -231,7 +242,7 @@ Duration: 3 hours &middot; $ Varies<br>
                 <div class="card-body">
                 Women's Cut / Style<br>
                 Duration: 45 minutes &middot; $60<br>
-                  
+
                 </div>
               </div>
             </div>
